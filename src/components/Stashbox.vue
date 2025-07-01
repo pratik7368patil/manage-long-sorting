@@ -89,7 +89,7 @@ onUnmounted(() => {
 
 <style scoped>
 .floating {
-  position: absolute;
+  position: fixed;
   z-index: 1000;
   background-color: #ffffff;
   border-radius: 8px;
